@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "redmiproclient",
+  "version": "${version}",
+  "name": "REDMI PRO Client",
+  "description": "REDMI PRO Client – Ultimate PvP & FPS Boost Client",
+  "authors": ["You"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": ["com.redmiproclient.RedmiProClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
